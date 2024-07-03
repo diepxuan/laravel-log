@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @author     Tran Ngoc Duc <ductn@diepxuan.com>
  * @author     Tran Ngoc Duc <caothu91@gmail.com>
  *
- * @lastupdate 2024-07-03 12:46:45
+ * @lastupdate 2024-07-03 12:48:12
  */
 
 namespace Diepxuan\Log\Providers;
