@@ -8,12 +8,11 @@ declare(strict_types=1);
  * @author     Tran Ngoc Duc <ductn@diepxuan.com>
  * @author     Tran Ngoc Duc <caothu91@gmail.com>
  *
- * @lastupdate 2024-07-03 11:31:57
+ * @lastupdate 2024-07-03 12:43:17
  */
 
-namespace Diepxuan\Log\Providers;
+namespace Diepxuan\Log;
 
-use Diepxuan\Log\Log;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
