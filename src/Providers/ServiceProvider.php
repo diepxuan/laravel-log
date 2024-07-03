@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @author     Tran Ngoc Duc <ductn@diepxuan.com>
  * @author     Tran Ngoc Duc <caothu91@gmail.com>
  *
- * @lastupdate 2024-07-03 11:14:34
+ * @lastupdate 2024-07-03 11:31:57
  */
 
 namespace Diepxuan\Log\Providers;
@@ -32,6 +32,6 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(Log::class);
+        $this->app->singleton(Log::class, static fn () => new Log());
     }
 }
